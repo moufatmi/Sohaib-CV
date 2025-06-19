@@ -70,7 +70,7 @@ function App() {
         <div className="container mx-auto max-w-4xl text-center">
           <div className="mb-8">
             <div className="w-32 h-32 bg-gradient-to-br from-blue-600 to-blue-800 rounded-full mx-auto mb-6 flex items-center justify-center text-white text-4xl font-bold shadow-xl">
-              YN
+              SF
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-4">
               Sohayb Fatmi

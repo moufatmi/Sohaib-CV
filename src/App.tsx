@@ -198,36 +198,6 @@ function App() {
         </div>
       </section>
 
-      {/* Experience Section */}
-      <section className="py-16 px-6 bg-white">
-        <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Work Experience</h2>
-          <div className="space-y-8">
-            {experience.map((job, index) => (
-              <div key={index} className="bg-gray-50 p-8 rounded-xl hover:bg-gray-100 transition-colors">
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                  <div>
-                    <h3 className="text-2xl font-bold text-gray-900">{job.title}</h3>
-                    <p className="text-xl text-blue-600 font-semibold">{job.company}</p>
-                  </div>
-                  <span className="text-orange-600 font-semibold bg-orange-100 px-3 py-1 rounded-full text-sm">
-                    {job.duration}
-                  </span>
-                </div>
-                <ul className="space-y-3">
-                  {job.responsibilities.map((responsibility, idx) => (
-                    <li key={idx} className="flex items-start gap-3 text-gray-700">
-                      <Star size={16} className="text-orange-500 mt-1 flex-shrink-0" />
-                      <span>{responsibility}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Contact Section */}
       <section className="py-16 px-6 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
         <div className="container mx-auto max-w-4xl text-center">
